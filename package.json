@@ -1,0 +1,17 @@
+{
+  "name": "pokedex_server",
+  "version": "1.0.0",
+  "description": "Proyecto para consumir la pokeapi y guardar datos en mongoDB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jossy Benitez",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  }
+}
